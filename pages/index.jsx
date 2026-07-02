@@ -94,7 +94,7 @@ function useGoogleAuth() {
     }
     const params = new URLSearchParams({
       client_id: GOOGLE_CLIENT_ID,
-      redirect_uri: window.location.origin + window.location.pathname,
+      redirect_uri: window.location.origin,
       response_type: "token",
       scope: GOOGLE_SCOPES,
       prompt: "select_account",

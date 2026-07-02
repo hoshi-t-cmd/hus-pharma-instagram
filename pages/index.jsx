@@ -41,6 +41,8 @@ const INITIAL_USERS = [
   { id: "s2024002", name: "鈴木 花子", year: 3, pw: "pass002", role: "student", active: true },
   { id: "s2024003", name: "佐藤 健太", year: 1, pw: "pass003", role: "student", active: true },
   { id: "t001",     name: "星 先生",   year: null, pw: "teacher2024", role: "teacher", active: true },
+  { id: "t002", name: "山下 先生", year: null, pw: "teacher2024", role: "teacher", active: true },
+  { id: "t003", name: "神尾 先生", year: null, pw: "teacher2024", role: "teacher", active: true },
 ];
 
 function genFileName(date, catId, sub, userId, userName) {
